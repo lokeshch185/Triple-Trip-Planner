@@ -3,7 +3,7 @@ const Trip = require('../models/Trip');
 // Get trip data (or create if doesn't exist)
 const getTrip = async (req, res) => {
   try {
-    const userId = req.query.userId || 'anonymous';
+    const userId = 'user_1764112201181_dmhd1ldgh';
     
     let trip = await Trip.findOne({ userId }).sort({ createdAt: -1 });
     
