@@ -16,17 +16,4 @@ dist-ssr
 google_cloud_key.json
 ./backend/.env
 .env
-./Services
-Services
-Saarthi.pem
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
